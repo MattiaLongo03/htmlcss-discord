@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-image: url(../img/jumbo.png);
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+nav,.accedi{
+    margin-top: 30px;
+}
+
+.a_nav{
+    padding: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.accedi{
+    margin-right: 30px;
+}
+
+.a_accedi{
+    padding: 10px;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+
