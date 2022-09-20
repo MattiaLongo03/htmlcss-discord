@@ -103,8 +103,30 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 200px;
+}
+
+.testo-main{
+    width: 250px;
+}
+
+.main2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
 }
 
 .testo-main1{
-    width: 250px;
+    width: 500px;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo-main2{
+    width: 300px;
 }
