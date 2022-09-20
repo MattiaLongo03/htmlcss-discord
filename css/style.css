@@ -99,6 +99,10 @@ header{
     margin-bottom: 0.5rem;
 }
 
+main{
+    margin-bottom: 200px;
+}
+
 .main{
     display: flex;
     justify-content: center;
@@ -144,10 +148,29 @@ header{
 }
 
 .scarica{
-    padding: 15px;
-    width: 200px;
+    padding: 10px;
     border-radius: 30px;
     color: white;
-    background-color: #6a5acd;
-    margin-bottom: 200px;
+    background-color: #7289DA;
+}
+
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+footer h1, h3{
+    color:#7289DA;
+}
+
+.footer2{
+    padding: 10px;
+    border-color: #7289DA;
+}
+
+.registrati{
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+    background-color: #7289DA;
 }
