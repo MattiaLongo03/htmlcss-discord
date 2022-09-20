@@ -78,7 +78,7 @@ header{
 }
 
 .header-background{
-    padding: 4rem 0 3rem;
+    padding: 4rem 0 10rem;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,4 +97,14 @@ header{
 
 .header-content p{
     margin-bottom: 0.5rem;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testo-main1{
+    width: 250px;
 }
