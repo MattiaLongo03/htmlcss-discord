@@ -99,7 +99,7 @@ header{
     margin-bottom: 0.5rem;
 }
 
-.main1{
+.main{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -110,7 +110,7 @@ header{
     width: 250px;
 }
 
-.main2{
+.main1{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -121,12 +121,33 @@ header{
     width: 500px;
 }
 
-.main3{
+.main2{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 200px;
 }
 
 .testo-main2{
     width: 300px;
+}
+
+.main3{
+    text-align: center;
+}
+
+.frase{
+    padding: 20px;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scarica{
+    padding: 15px;
+    width: 200px;
+    border-radius: 30px;
+    color: white;
+    background-color: #6a5acd;
+    margin-bottom: 200px;
 }
