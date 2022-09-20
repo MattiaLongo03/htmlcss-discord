@@ -4,45 +4,97 @@
     box-sizing: border-box;
 }
 
-a{
-    text-decoration: none;
+html{
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-small{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1em 1.5em;
+    border-radius: 10em;
+    text-decoration: none ;
+}
+
+.btn-white{
+    background-color: white;
+    color: black;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
 }
 
 header{
-    background-image: url(../img/jumbo.png);
+    background-color: #255EE9;
+}
+
+.menu-top{
+    height: 4em;
+}
+
+.menu-top ul{
     display: flex;
-    justify-content: center;
+    height: 100%;
 }
 
-.logo{
-    margin-top: 20px;
-    margin-left: 30px;
-}
-
-nav,.accedi{
-    margin-top: 30px;
-}
-
-.a_nav{
-    padding: 30px;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
-
-.accedi{
-    margin-right: 30px;
-}
-
-.a_accedi{
-    padding: 10px;
-    background-color: white;
-    font-family: 'Roboto', sans-serif;
-    border-radius: 20px;
-}
-
-.content{
+.menu-top li{
+    list-style: none;
     display: flex;
     align-items: center;
 }
 
+.menu-top .menu-link{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 1em;
+    padding: 0 0.3em;
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;
+}
 
+.menu-top .menu-link:hover{
+    background-color: aqua;
+}
+
+.menu-top .logo{
+    margin-right: auto;
+}
+
+.menu-top .accedi{
+    margin-left: auto;
+}
+
+.header-background{
+    padding: 4rem 0 3rem;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: bottom ;
+}
+
+.header-content{
+    text-align: center;
+    color: white;
+}
+
+.header-content h1{
+    margin-bottom: 1em;
+}
+
+.header-content p{
+    margin-bottom: 0.5rem;
+}
