@@ -157,15 +157,37 @@ main{
 footer{
     background-color: #23272A;
     color: white;
+    padding-bottom: 50px;
 }
 
 footer h1, h3{
     color:#7289DA;
 }
 
-.footer2{
-    padding: 10px;
+i{
+    padding-right: 5px;
+}
+
+.colonne{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+}
+
+.bandiera{
+    width: 20px;
+}
+
+.footer2{   
+    padding: 50px 50px 50px 50px;
+    border-top: solid;
     border-color: #7289DA;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .registrati{
